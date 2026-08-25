@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtualenv / uv
+.venv/
+venv/
+# uv.lock is intentionally committed for reproducible installs
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.local
+
+# Runtime state
+*.log
+.mcc_history
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
